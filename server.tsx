@@ -1,8 +1,8 @@
 import application, {
   response,
-} from "https://deno.land/x/fastro@v0.57.3/server/mod.ts";
-import rendering from "https://deno.land/x/fastro@v0.57.3/server/ssr.ts";
-import App from "./app.tsx";
+} from "https://deno.land/x/fastro@v0.57.5/server/mod.ts";
+import rendering from "https://deno.land/x/fastro@v0.57.5/server/ssr.ts";
+import App from "./components/app.tsx";
 
 const ssr = rendering().component(<App />);
 
